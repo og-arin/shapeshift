@@ -16,7 +16,7 @@ Numerical Transformations: Convert data between Binary, Octal, Decimal, and Hexa
 
 Web Utilities: Built-in URL Encoding and Decoding.
 
-Cross-Platform Compatibility: Native support for both Windows and Linux (Black-OS).
+Cross-Platform Compatibility: Native support for both Windows and Linux.
 
 🛠️ Installation
 ShapeShift Pro comes with an automated installer that handles dependencies and system path configuration.
@@ -24,7 +24,7 @@ ShapeShift Pro comes with an automated installer that handles dependencies and s
 Clone the Repository:
 
 Bash
-git clone https://github.com/yourusername/ShapeShift.git
+git clone https://github.com/og-arin/ShapeShift.git
 cd ShapeShift
 Run the Installer:
 
@@ -32,7 +32,7 @@ On Windows (PowerShell/CMD):
 
 PowerShell
 python install.py
-On Linux (Black-OS):
+On Linux :
 
 Bash
 sudo python3 install.py
