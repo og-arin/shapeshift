@@ -24,34 +24,50 @@ ShapeShift Pro comes with an automated installer that handles dependencies and s
 Clone the Repository:
 
 Bash
+
 git clone https://github.com/og-arin/ShapeShift.git
+
 cd ShapeShift
+
 Run the Installer:
 
 On Windows (PowerShell/CMD):
 
 PowerShell
+
 python install.py
+
 On Linux :
 
 Bash
+
 sudo python3 install.py
+
+
 💻 Usage Examples
+
 Once installed, the shapeshift command becomes available globally in your terminal.
 
 Full Transformation (Default):
 
 Bash
+
 shapeshift "YourSecretData"
+
 Encode Mode Only:
 
 Bash
+
 shapeshift "hello" --encode
+
 Decode/Brute-Force Mode:
 
 Bash
+
 shapeshift "UzVpZGVyR29k" --decode
+
 📂 Project Structure
+
 Shapeshift.py: The core engine containing all transformation logic.
 
 install.py: The automated setup script for OS detection and global command registration.
