@@ -22,27 +22,27 @@ Cross-Platform Compatibility: Native support for both Windows and Linux.
 ShapeShift Pro comes with an automated installer that handles dependencies and system path configuration.
 
 Clone the Repository:
-
+```
 Bash
 
 git clone https://github.com/og-arin/ShapeShift.git
 
 cd ShapeShift
-
+```
 Run the Installer:
 
 On Windows (PowerShell/CMD):
 
 PowerShell
-
+```
 python install.py
-
+```
 On Linux :
 
 Bash
-
+```
 sudo python3 install.py
-
+```
 
 💻 Usage Examples
 
@@ -51,21 +51,19 @@ Once installed, the shapeshift command becomes available globally in your termin
 Full Transformation (Default):
 
 Bash
-
+```
 shapeshift "YourSecretData"
-
+```
 Encode Mode Only:
-
-Bash
 
 shapeshift "hello" --encode
 
 Decode/Brute-Force Mode:
 
 Bash
-
+```
 shapeshift "UzVpZGVyR29k" --decode
-
+```
 📂 Project Structure
 
 Shapeshift.py: The core engine containing all transformation logic.
@@ -77,5 +75,7 @@ README.md: Documentation and usage guide.
 🛠️ Dependencies
 This tool utilizes the rich library for its advanced CLI interface. While the installer handles this automatically, you can install it manually via:
 
-Bash
+Bash:
+```
 pip install rich
+```
